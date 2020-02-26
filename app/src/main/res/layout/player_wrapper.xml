@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/playerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/playerRootView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toTopOf="@+id/timeLineView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.googy.filters.GLRenderSurfaceView
+            android:id="@+id/playerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.googy.crop.CropView
+            android:id="@+id/cropOverlayView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.googy.rotate.PixelGridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.googy.videoeditor.ui.base.TimeLineView
+        android:id="@+id/timeLineView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!--    <RelativeLayout-->
+    <!--        android:id="@+id/playerController"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:layout_marginBottom="@dimen/double_margin"-->
+    <!--        android:background="@drawable/border"-->
+    <!--        android:padding="2dp"-->
+    <!--        android:visibility="invisible"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+    <!--        <FrameLayout-->
+    <!--            android:id="@+id/timeLineFrame"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content">-->
+
+    <!--                <com.googy.common.TimeLineViewOld-->
+    <!--                    android:id="@+id/timeLineView"-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="42dp" />-->
+
+    <!--            </RelativeLayout>-->
+
+    <!--        </FrameLayout>-->
+
+    <!--        <SeekBar-->
+    <!--            android:id="@+id/handlerTop"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="42dp"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:max="1000"-->
+    <!--            android:progressDrawable="@android:color/transparent"-->
+    <!--            android:secondaryProgress="0"-->
+    <!--            android:thumb="@drawable/pan_vertical"-->
+    <!--            android:visibility="visible" />-->
+
+    <!--        <com.googy.trim.view.RangeSeekBarView-->
+    <!--            android:id="@+id/timeLineBar"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="42dp"-->
+    <!--            android:layout_alignTop="@+id/timeLineFrame" />-->
+    <!--    </RelativeLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

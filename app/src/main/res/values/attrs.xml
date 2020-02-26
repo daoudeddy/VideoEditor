@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlayerWrapper">
+        <attr name="cropEnabled" format="boolean" />
+        <attr name="trimEnabled" format="boolean" />
+        <attr name="timeLineEnabled" format="boolean" />
+        <attr name="gridEnabled" format="boolean" />
+        <attr name="gridsCount" format="integer" />
+    </declare-styleable>
+</resources>

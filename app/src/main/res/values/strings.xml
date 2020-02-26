@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Video Editor</string>
+    <string name="add_a_video">Add a video</string>
+    <string name="select_video">Select Video</string>
+    <string name="select_directory">Select directory</string>
+    <string name="crop">Crop</string>
+    <string name="trim">Trim</string>
+    <string name="rotate">Rotate</string>
+    <string name="speed">Speed</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/look"
+        android:icon="@drawable/ic_looks_black_24dp"
+        android:title="LOOKS" />
+    <item
+        android:id="@+id/tools"
+        android:icon="@drawable/ic_tools_black_24dp"
+        android:title="TOOLS" />
+    <item
+        android:id="@+id/export"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="EXPORT" />
+</menu>

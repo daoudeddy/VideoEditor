@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_crop_frame">16dp</dimen>
+    <dimen name="size_dot_scale_text_view">8dp</dimen>
+    <dimen name="height_horizontal_wheel_progress_line">20dp</dimen>
+    <dimen name="width_horizontal_wheel_progress_line">2dp</dimen>
+    <dimen name="width_middle_wheel_progress_line">4dp</dimen>
+    <dimen name="margin_horizontal_wheel_progress_line">10dp</dimen>
+    <dimen name="height_wrapper_controls">64dp</dimen>
+    <dimen name="height_wrapper_states">72dp</dimen>
+    <dimen name="height_divider_shadow">3dp</dimen>
+    <dimen name="text_size_widget_text">13sp</dimen>
+    <dimen name="margit_top_widget_text">10sp</dimen>
+    <dimen name="size_wrapper_rotate_button">50dp</dimen>
+    <dimen name="height_crop_aspect_ratio_text">40dp</dimen>
+    <dimen name="progress_size">30dp</dimen>
+
+    <!--Crop View-->
+    <dimen name="default_crop_logo_size">200dp</dimen>
+    <dimen name="default_crop_grid_stoke_width">1dp</dimen>
+    <dimen name="default_crop_frame_stoke_width">1dp</dimen>
+    <dimen name="default_crop_rect_corner_touch_threshold">30dp</dimen>
+    <dimen name="default_crop_rect_min_size">100dp</dimen>
+    <dimen name="default_crop_rect_corner_touch_area_line_length">10dp</dimen>
+</resources>

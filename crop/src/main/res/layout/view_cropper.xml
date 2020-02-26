@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.googy.crop.utils.CropImageView
+        android:id="@+id/cropFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/seekerFrame"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:cropInitialCropWindowPaddingRatio="0"
+        app:cropMultiTouchEnabled="false"
+        app:cropScaleType="centerInside"
+        app:cropTouchRadius="44dp" />
+
+    <FrameLayout
+        android:id="@+id/seekerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/timeLineFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.googy.common.TimeLineViewOld
+                        android:id="@+id/timeLineView"
+                        android:foreground="@drawable/border"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </FrameLayout>
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/handlerTop"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center_horizontal"
+                android:progressDrawable="@android:color/transparent"
+                android:secondaryProgress="0"
+                android:thumbOffset="10dp"
+                android:thumb="@drawable/ic_seek_thumb" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- VIDEO TRIMMER-->
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="frames_video_height">42dip</dimen>
+    <dimen name="playing_video_frames_video_width">80dp</dimen>
+    <dimen name="playing_video_frames_video_height">75dp</dimen>
+    <dimen name="playing_video_seekbar_time_line_height">95dp</dimen>
+    <dimen name="playing_video_btn_pause_size">30dp</dimen>
+    <dimen name="playing_video_video_view_margin">10dp</dimen>
+    <dimen name="playing_video_time_line_seekbar_width">20dp</dimen>
+    <dimen name="playing_video_line_width">1dp</dimen>
+    <dimen name="playing_video_text_seekbar_margin">2dp</dimen>
+    <dimen name="playing_video_radius_circle">3dp</dimen>
+    <dimen name="playing_video_margin_circle_with_timeline">6dp</dimen>
+    <dimen name="playing_video_size_text_paint">8dp</dimen>
+</resources>

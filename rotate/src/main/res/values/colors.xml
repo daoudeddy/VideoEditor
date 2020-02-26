@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_widget_rotate_mid_line">#512DA8</color>
+    <color name="color_progress_wheel_line">#000000</color>
+    <!--uCrop Activity-->
+    <color name="white">#fff</color>
+    <color name="color_toolbar">#fff</color>
+    <color name="color_statusbar">#f5f5f5</color>
+    <color name="color_toolbar_widget">#000000</color>
+    <color name="color_widget">#000</color>
+    <color name="color_widget_active">#FFFFFF</color>
+    <color name="color_active_controls_color">#FFFFFF</color>
+    <color name="color_widget_background">#673AB7</color>
+    <color name="color_widget_text">#000</color>
+    <color name="color_crop_background">#000</color>
+
+    <!--Crop View-->
+    <color name="color_default_crop_grid">#FFFFFF</color>
+    <color name="color_default_crop_frame">#ffffff</color>
+    <color name="color_default_dimmed">#FFFFFF</color>
+    <color name="color_default_logo">#4f212121</color>
+</resources>

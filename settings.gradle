@@ -1,0 +1,2 @@
+include ':app', ':files', ':runtimepermission', ':trim', ':crop', ':common', ':rotate', ':filters'
+rootProject.name='Video Editor'

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">?android:attr/colorBackground</item>
+        <item name="colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
